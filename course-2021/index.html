@@ -12,36 +12,54 @@
       <div class="container">
         <div class="logo">
           <a href="#">Remember<span>That</span></a>
-          <img src="./images/menu.svg" alt="open navigation" />
+          <img
+            id="mobile-cta"
+            class="mobile-btn"
+            src="./images/menu.svg"
+            alt="open navigation"
+          />
         </div>
         <nav>
           <img src="./images/exit.svg" alt="close navigation" />
           <ul class="primary-navigation">
-            <li><a href="#">Home</a></li>
+            <li class="current"><a href="#">Home</a></li>
             <li><a href="#">Features</a></li>
-            <li><a href="#"></a></li>
+            <li><a href="#">Price</a></li>
           </ul>
           <ul class="secondary-navigation">
             <li><a href="#">Contact</a></li>
-            <li><a href="#">Go premium</a></li>
+            <li class="go-premium-cta"><a href="#">Go Premium</a></li>
           </ul>
         </nav>
       </div>
       <section class="hero">
         <div class="left-col">
-          <span>It's Nitty &amp; Gritty</span>
+          <p class="subhead">It's Nitty &amp; Gritty</p>
           <h1>A Task App that doesn't stink</h1>
-          <div>
-            <a> Try for free </a>
+          <div class="hero-cta">
+            <a class="primary-cta"> Try for free </a>
             <a>
-              <img src="./images/watch.svg" />
-              Watch a video
-            </a>
-          </div>
-        </div>
-        <img src="./images/illustration.svg" alt="Watch video" />
+                <img src="./images/watch.svg" class="watch-video-cta" alt="watch video" />
+                Watch a video
+        </a> 
+          </div>  
+          <img src="./images/illustration.svg" class="illustration-cta" alt="illustration" />
+
       </section>
     </div>
-    <section></section>
+    <section class="features">
+      <div class="container">
+       <ul>
+        <li>Unlimited Tasks</li>
+        <li>Sms Task Reminders</li>
+        <li>Confetti Explosion on task Completion</li>
+        <li>Social Media Announcement</li>
+        <li>Real Time Collaboration</li>
+        <li>Other Awesome Features</li>
+       </ul>
+        <img src="./images/holding-phone.jpg" alt='man holding a phone'/>
+      </div>
+   
+    </section>
   </body>
 </html>
